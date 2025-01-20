@@ -44,7 +44,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 This is was simple challange, I have a new idea and that is to enhance it BY making an page where user add an link to  create a its QR-code and can download a QR-code image to share.
 
-
+and i learned general issue like role="main"  for that use use main tag and  role="contentinfo" for that we use footer tag, and in this challange it is not necessory but i know this is warning and this help in SEO for website
+```html
+<div role="main" class="qr-code"></div>
+<div role="contentinfo" class="attribution"></div>
+```
 
 
 ### Continued development
